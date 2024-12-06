@@ -4,15 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EDDemo
+namespace EDDemo.Estructuras_Lineales.Clases
 {
-    public class Pilas
+    internal class Pilas
     {
-        public void Push()
-        {
-            Nodo Nuevo = new Nodo();
-            Nuevo.sig = null;
- 
-        }
+
     }
 }
+

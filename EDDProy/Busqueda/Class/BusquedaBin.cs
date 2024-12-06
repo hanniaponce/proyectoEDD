@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EDDemo.Estructuras_Lineales.Clases
+namespace EDDemo.Busqueda.Class
 {
-    internal class Nodo
+    internal class BusquedaBin
     {
-
     }
 }

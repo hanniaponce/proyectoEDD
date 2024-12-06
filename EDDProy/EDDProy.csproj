@@ -49,8 +49,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Estructuras Lineales\Clases\Listas.cs" />
+    <Compile Include="Busqueda\Class\BusquedaBin.cs" />
+    <Compile Include="Busqueda\Class\Hash.cs" />
+    <Compile Include="Busqueda\Forms\FrmBBin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busqueda\Forms\FrmBBin.Designer.cs">
+      <DependentUpon>FrmBBin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Busqueda\Forms\FrmHash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busqueda\Forms\FrmHash.Designer.cs">
+      <DependentUpon>FrmHash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructuras Lineales\Clases\Circulares.cs" />
+    <Compile Include="Estructuras Lineales\Clases\Colas.cs" />
+    <Compile Include="Estructuras Lineales\Clases\Dobles.cs" />
+    <Compile Include="Estructuras Lineales\Clases\ListaE.cs" />
     <Compile Include="Estructuras Lineales\Clases\Nodo.cs" />
+    <Compile Include="Estructuras Lineales\Clases\NodoCinco.cs" />
+    <Compile Include="Estructuras Lineales\Clases\NodoCuatro.cs" />
+    <Compile Include="Estructuras Lineales\Clases\NodoDos.cs" />
+    <Compile Include="Estructuras Lineales\Clases\NodoTres.cs" />
     <Compile Include="Estructuras Lineales\Clases\Pilas.cs" />
     <Compile Include="Estructuras No Lineales\Clases\ArbolBusqueda.cs" />
     <Compile Include="Estructuras No Lineales\frmArboles.cs">
@@ -60,28 +81,29 @@
       <DependentUpon>frmArboles.cs</DependentUpon>
     </Compile>
     <Compile Include="Estructuras No Lineales\Clases\NodoBinario.cs" />
+    <Compile Include="FrmGrafica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGrafica.Designer.cs">
+      <DependentUpon>FrmGrafica.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmInicio.Designer.cs">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Estructuras Lineales\frmPilas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Estructuras Lineales\frmPilas.Designer.cs">
-      <DependentUpon>frmPilas.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Graphviz.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Estructuras No Lineales\frmArboles.resx">
       <DependentUpon>frmArboles.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmGrafica.resx">
+      <DependentUpon>FrmGrafica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Estructuras Lineales\frmPilas.resx">
-      <DependentUpon>frmPilas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -105,6 +127,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Estructuras Lineales\Forms\" />
+    <Folder Include="Recursivos\Class\" />
+    <Folder Include="Recursivos\Forms\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

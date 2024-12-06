@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace EDDemo.Estructuras_Lineales.Clases
 {
-    internal class Nodo
+    internal class NodoDos
     {
-
     }
 }
