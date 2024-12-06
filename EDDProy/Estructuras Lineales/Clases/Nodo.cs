@@ -8,6 +8,7 @@ namespace EDDemo.Estructuras_Lineales.Clases
 {
     internal class Nodo
     {
-
+        public String Dato;
+        public Nodo Siguiente;
     }
 }

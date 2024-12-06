@@ -63,16 +63,46 @@
     <Compile Include="Busqueda\Forms\FrmHash.Designer.cs">
       <DependentUpon>FrmHash.cs</DependentUpon>
     </Compile>
-    <Compile Include="Estructuras Lineales\Clases\Circulares.cs" />
-    <Compile Include="Estructuras Lineales\Clases\Colas.cs" />
-    <Compile Include="Estructuras Lineales\Clases\Dobles.cs" />
-    <Compile Include="Estructuras Lineales\Clases\ListaE.cs" />
+    <Compile Include="Estructuras Lineales\Clases\Circular.cs" />
+    <Compile Include="Estructuras Lineales\Clases\Cola.cs" />
+    <Compile Include="Estructuras Lineales\Clases\Doble.cs" />
+    <Compile Include="Estructuras Lineales\Clases\Lista.cs" />
     <Compile Include="Estructuras Lineales\Clases\Nodo.cs" />
     <Compile Include="Estructuras Lineales\Clases\NodoCinco.cs" />
     <Compile Include="Estructuras Lineales\Clases\NodoCuatro.cs" />
     <Compile Include="Estructuras Lineales\Clases\NodoDos.cs" />
     <Compile Include="Estructuras Lineales\Clases\NodoTres.cs" />
-    <Compile Include="Estructuras Lineales\Clases\Pilas.cs" />
+    <Compile Include="Estructuras Lineales\Clases\Pila.cs" />
+    <Compile Include="Estructuras Lineales\Forms\Circulares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructuras Lineales\Forms\Circulares.Designer.cs">
+      <DependentUpon>Circulares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructuras Lineales\Forms\Colas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructuras Lineales\Forms\Colas.Designer.cs">
+      <DependentUpon>Colas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructuras Lineales\Forms\Dobles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructuras Lineales\Forms\Dobles.Designer.cs">
+      <DependentUpon>Dobles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructuras Lineales\Forms\ListaE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructuras Lineales\Forms\ListaE.Designer.cs">
+      <DependentUpon>ListaE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructuras Lineales\Forms\Pilas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructuras Lineales\Forms\Pilas.Designer.cs">
+      <DependentUpon>Pilas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Estructuras No Lineales\Clases\ArbolBusqueda.cs" />
     <Compile Include="Estructuras No Lineales\frmArboles.cs">
       <SubType>Form</SubType>
@@ -94,8 +124,57 @@
       <DependentUpon>frmInicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Graphviz.cs" />
+    <Compile Include="Ordenamiento\Class\Burbuja.cs" />
+    <Compile Include="Ordenamiento\Class\QuickSort.cs" />
+    <Compile Include="Ordenamiento\Class\RadixSort.cs" />
+    <Compile Include="Ordenamiento\Class\ShellSort.cs" />
+    <Compile Include="Ordenamiento\Forms\FrmBurbuja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ordenamiento\Forms\FrmBurbuja.Designer.cs">
+      <DependentUpon>FrmBurbuja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ordenamiento\Forms\FrmQuickSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ordenamiento\Forms\FrmQuickSort.Designer.cs">
+      <DependentUpon>FrmQuickSort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ordenamiento\Forms\FrmRadixSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ordenamiento\Forms\FrmRadixSort.Designer.cs">
+      <DependentUpon>FrmRadixSort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ordenamiento\Forms\FrmShellSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ordenamiento\Forms\FrmShellSort.Designer.cs">
+      <DependentUpon>FrmShellSort.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Busqueda\Forms\FrmBBin.resx">
+      <DependentUpon>FrmBBin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Busqueda\Forms\FrmHash.resx">
+      <DependentUpon>FrmHash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\Forms\Circulares.resx">
+      <DependentUpon>Circulares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\Forms\Colas.resx">
+      <DependentUpon>Colas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\Forms\Dobles.resx">
+      <DependentUpon>Dobles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\Forms\ListaE.resx">
+      <DependentUpon>ListaE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\Forms\Pilas.resx">
+      <DependentUpon>Pilas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Estructuras No Lineales\frmArboles.resx">
       <DependentUpon>frmArboles.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +183,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordenamiento\Forms\FrmBurbuja.resx">
+      <DependentUpon>FrmBurbuja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordenamiento\Forms\FrmQuickSort.resx">
+      <DependentUpon>FrmQuickSort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordenamiento\Forms\FrmRadixSort.resx">
+      <DependentUpon>FrmRadixSort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordenamiento\Forms\FrmShellSort.resx">
+      <DependentUpon>FrmShellSort.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -129,7 +220,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Estructuras Lineales\Forms\" />
     <Folder Include="Recursivos\Class\" />
     <Folder Include="Recursivos\Forms\" />
   </ItemGroup>

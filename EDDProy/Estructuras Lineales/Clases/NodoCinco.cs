@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EDDemo.Estructuras_Lineales.Clases
-{
+using EDDemo.Estructuras_Lineales.Clases;
+
+
     internal class NodoCinco
     {
+        public string Dato { get; set; }
+        public NodoCinco Siguiente { get; set; }
+
     }
-}
+

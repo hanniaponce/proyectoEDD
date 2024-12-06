@@ -8,5 +8,7 @@ namespace EDDemo.Estructuras_Lineales.Clases
 {
     internal class NodoCuatro
     {
+        public string Dato { get; set; }
+        public NodoCuatro Siguiente { get; set; }
     }
 }
